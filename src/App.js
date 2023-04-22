@@ -5,6 +5,7 @@ import NoFoundPage from 'components/NoFoundPage/NotFoundPage';
 
 const App = () => {
   const PostsPage = lazy(() => import('pages/PostsPage/PostsPage.jsx'));
+  const OnePostPage = lazy(() => import('pages/OnePostPage/OnePostPage.jsx'));
   // const dispatch = useDispatch();
 
   // useEffect(() => {
@@ -15,6 +16,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<PostsPage />} />
+        <Route path="/:postId" element={<OnePostPage />} />
         <Route path="*" element={<NoFoundPage />} />
       </Route>
     </Routes>
