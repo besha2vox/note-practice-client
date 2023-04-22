@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/note-practice-client/static/css/main.e59c480c.css",
+    "main.js": "/note-practice-client/static/js/main.da9fac9c.js",
+    "static/js/917.359058ee.chunk.js": "/note-practice-client/static/js/917.359058ee.chunk.js",
+    "index.html": "/note-practice-client/index.html",
+    "static/media/star.svg": "/note-practice-client/static/media/star.7f11e0c43b74583d4525ab7ad1c521b1.svg",
+    "static/media/comments.svg": "/note-practice-client/static/media/comments.3920bc257e652f245ca9c340af7bc64b.svg",
+    "static/media/trash.svg": "/note-practice-client/static/media/trash.c92e56e1708bab819e57014b49045041.svg",
+    "static/media/like.svg": "/note-practice-client/static/media/like.ac080d307ffd33e96932da72b8570a61.svg",
+    "main.e59c480c.css.map": "/note-practice-client/static/css/main.e59c480c.css.map",
+    "main.da9fac9c.js.map": "/note-practice-client/static/js/main.da9fac9c.js.map",
+    "917.359058ee.chunk.js.map": "/note-practice-client/static/js/917.359058ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e59c480c.css",
+    "static/js/main.da9fac9c.js"
+  ]
+}
