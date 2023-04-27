@@ -5,6 +5,7 @@ import { fetchNotes } from 'redux/notes/operations';
 import { Container } from 'shared/Container';
 import { Title } from './PostsPage.styled';
 import NoteList from 'components/NoteList/NoteList';
+import PostForm from 'components/PostForm/PostForm';
 
 const PostsPage = () => {
   const dispatch = useDispatch();
@@ -16,6 +17,7 @@ const PostsPage = () => {
   return (
     <Container>
       <Title>All posts</Title>
+      <PostForm />
       <NoteList />
     </Container>
   );

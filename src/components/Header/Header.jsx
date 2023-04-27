@@ -1,7 +1,19 @@
 import { Nav, NavigationLink, AuthList } from './Header.styled';
 import { Container } from 'shared/Container';
+import { useContext } from 'react';
+import { FormContext } from 'services/Context';
 
 const Header = () => {
+  const { formType, setFormType } = useContext(FormContext);
+
+  const handleLoginClick = () => {
+    setFormType('login');
+  };
+
+  const handleSingupClick = () => {
+    setFormType('singup');
+  };
+
   return (
     <header>
       <Container>
@@ -9,10 +21,10 @@ const Header = () => {
           <NavigationLink to="/">Home</NavigationLink>
           <AuthList>
             <li>
-              <button>Log in</button>
+              <button onClick={handleLoginClick}>Log in</button>
             </li>
             <li>
-              <button>Sing up</button>
+              <button onClick={handleSingupClick}>Sing up</button>
             </li>
           </AuthList>
         </Nav>
